@@ -4,7 +4,7 @@ void main()
 {
     int i;
     printf("even number series : ");
-    for (i = 1; i <= 30; i++) // 6
+    for (i = 1; i <= 30; i++) // 6 
     {
         if (i % 2 == 0)
         {
