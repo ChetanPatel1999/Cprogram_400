@@ -4,12 +4,12 @@ void main()
 {
     int num, rem, sum = 0;
     printf("enter a num : ");
-    scanf("%d", &num); // 345
+    scanf("%d", &num); // 328
     while (num > 0)
     {
-        rem = num % 10;
-        sum = sum + rem;
-        num = num / 10;
+        rem = num % 10;  // 3
+        sum = sum + rem; // 13
+        num = num / 10;  // 0
     }
-    printf("sum of individula digit = %d", sum);
+    printf("sum of individula digit : %d", sum);
 }
