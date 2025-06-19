@@ -4,7 +4,7 @@ void main()
 {
     int num, s, rem, digit_found = 0;
     printf("enter a number : ");
-    scanf("%d", &num); // 6753
+    scanf("%d", &num); // 67538
     printf("enter a digit : ");
     scanf("%d", &s); //8
     while (num > 0)
