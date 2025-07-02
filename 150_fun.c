@@ -26,13 +26,33 @@ void char_vovel(char ch)
         printf("char is consonenet\n");
     }
 }
+void factorial(int num)
+{
+    int i, fact = 1;
+    for (i = 1; i <= num; i++)
+    {
+        fact = fact * i;
+    }
+    printf("factorial of %d = %d\n", num, fact);
+}
+void range(int s, int e)
+{
+    int i;
+    for (i = s; i <= e; i++) // 6
+    {
+        factorial(i);
+    }
+}
 void main()
 {
-    char_vovel('o');
+    // factorial(5);
+    // factorial(6);
+    range(3, 5);
+    // char_vovel('o');
 
-    cube(4);
-    add(12, 8);
-    add(6, 4);
+    // cube(4);
+    // add(12, 8);
+    // add(6, 4);
 
-    add(100, 423);
+    // add(100, 423);
 }
