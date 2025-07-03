@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "138_PATTERN.C": "cpp"
+        "138_PATTERN.C": "cpp",
+        "159_REC.C": "cpp"
     }
 }
