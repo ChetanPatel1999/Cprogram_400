@@ -1,30 +1,31 @@
-// wap to take array element from user and display their sum and also avrage.
+// wap to print max element from array.
 #include <stdio.h>
 void main()
 {
     int n;
     printf("enter array size : ");
-    scanf("%d", &n); // 15
+    scanf("%d", &n);
     int arr[n], i;
     printf("enter array element : ");
     for (i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
     }
+
     printf("array element are : ");
     for (i = 0; i < n; i++)
     {
         printf("%d ", arr[i]);
     }
 
-    // some all array element
-    int sum = 0;
+    // find max element
+    int max = arr[0];
     for (i = 0; i < n; i++)
     {
-        sum = sum + arr[i];
+        if (max > arr[i])
+        {
+            max = arr[i];
+        }
     }
-    float average;
-    average = sum / (float)n;    
-    printf("\nsum of all array element = %d ", sum);
-    printf("\naverage of all array element = %.2f", average);
+    printf("\nmax element = %d", max);
 }
